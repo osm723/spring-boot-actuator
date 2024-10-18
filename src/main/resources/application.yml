@@ -16,9 +16,16 @@ management:
       enabled: true
     env:
       enabled: true
+  server:
+    port: 8080
 
 
 info:
   app:
     name: oh-actuator
     company: oh
+logging:
+  level:
+    hello.controller: debug
+
+
